@@ -1,0 +1,236 @@
+    /* General */
+    
+    * {
+        font-family: Montserrat, sans-serif;
+        box-sizing: border-box;
+    }
+    
+    body {
+        text-align: center;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Montserrat-Black', sans-serif;
+        line-height: 1.5;
+    }
+    /* HEADINGS */
+    
+    .big-heading {
+        font-size: 3.5rem;
+        line-height: 1.5;
+        font-weight: 900;
+    }
+    
+    .secondary-heading {
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    
+    .third-heading {
+        font-size: 600;
+        font-size: 3rem;
+    }
+    /* ----#title section---- */
+    /* Nav Bar */
+    
+    .navbar-brand {
+        font-family: Ubuntu, sans-serif;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    
+    .top-navbar {
+        font-size: 1.5em;
+    }
+    
+    .nav-item {
+        padding: 0 18px;
+    }
+    
+    .nav-link {
+        font-size: 1.4rem;
+        font-family: Montserrat;
+        font-weight: 400;
+    }
+    
+    .navbar {
+        padding: 0 0 4.5rem;
+    }
+    /* Section title */
+    
+    #title {
+        background-color: #ff4c68;
+        color: #fff;
+        text-align: left;
+    }
+    
+    .container-fluid {
+        padding: 3% 15% 7%;
+    }
+    /* Download buttons */
+    
+    .download-button {
+        margin: 5% 3% 5% 0%;
+    }
+    /* title image */
+    
+    .title-img {
+        width: 24rem;
+        transform: rotate(25deg);
+        position: absolute;
+        /* left: 60%; */
+    }
+    
+    @media (max-width: 991px) {
+        .title-img {
+            position: static;
+            transform: rotate(0);
+        }
+        .title-img-container {
+            text-align: center;
+        }
+    }
+    /* ----Features Section---- */
+    /* @media (max-width: 991px) {
+    #features i {
+        margin-top: 1.5em;
+    }
+} */
+    
+    #features {
+        padding: 7% 15%;
+        position: relative;
+        background-color: #fff;
+    }
+    
+    .features-box {
+        text-align: center;
+        /* margin-bottom: 3rem; */
+    }
+    
+    #features h3 {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    
+    #features p {
+        font-family: Montserrat;
+        color: #8f8f8f;
+    }
+    /* Icons */
+    
+    .features-fas {
+        /* font-size: 4em; */
+        color: #ef8172;
+        margin-bottom: 1rem;
+    }
+    
+    .features-fas:hover {
+        color: #ff4c68;
+    }
+    /* -----Testimonials Section----- */
+    
+    #testimonials {
+        text-align: center;
+        background-color: #ef8172;
+        color: #fff;
+    }
+    /* images */
+    
+    .testimonials-img {
+        width: 10%;
+        border-radius: 50%;
+        margin: 20px;
+    }
+    /* Press section */
+    
+    #press {
+        background-color: #ef8172;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    
+    .press-logo {
+        width: 15%;
+        margin: 20px 20px 50px;
+    }
+    
+    .carousel-item {
+        padding: 7% 15%
+    }
+    /* pricing section */
+    
+    .pricing-head {
+        text-align: center;
+        padding: 5rem 10rem 1.5rem;
+    }
+    
+    .pricing-table-container {
+        padding: 1rem 4rem;
+        padding-top: 1rem;
+    }
+    
+    #pricing .col {
+        margin: 1rem 0 1rem;
+    }
+    
+    #pricing h3 {
+        font-family: Ubuntu;
+        font-size: 2.5rem;
+        /* font-weight: 600; */
+    }
+    
+    .btn-dark:hover {
+        background-color: #000;
+        height: ;
+    }
+    /* ------FOOTER SECTION------ */
+    
+    #cta {
+        text-align: center;
+        background-color: #ff4c68;
+        color: #fff;
+    }
+    
+    .cta-container {
+        padding: 7% 15%;
+    }
+    
+    #cta h3 {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 1.8;
+        padding-bottom: 2rem;
+    }
+    
+    #cta button {
+        margin: 0 1rem;
+    }
+    
+    #footer {
+        text-align: center;
+        padding: 5% 15%;
+    }
+    
+    .footer-elements {
+        width: 20rem;
+        margin: auto;
+    }
+    
+    #footer i {
+        margin: 0 0.5rem 10%;
+    }
+    
+    #footer p {
+        color: #8f8f8f;
+        font-weight: 500;
+        font-size: 1rem;
+    }
